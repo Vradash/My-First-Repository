@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <style type="text/css">
+        #main-header {
+            text-align: center;
+            background-color: aqua;
+            color: black;
+            padding: 10px;
+        }
+
+        #main-footer {
+            text-align: center;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="main-header">
+        <h1>Registration Form</h1>
+    </header>
+
+    <hr>
+    <br>
+    <form action="process.php" method="post">
+        <div>
+            <label for=""><strong>Name:</strong></label>
+            <input type="text" name="first-name" placeholder="Enter Full name">
+        </div>
+        <br>
+        <div>
+            <label for=""><strong>Gender:</strong></label>
+            <select name="gender" id="">
+                <option value="male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Others">Others</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <label for=""><strong>Username:</strong></label>
+            <input type="text" name="Username">
+        </div>
+        <br>
+        <div>
+            <label for=""><strong>Email:</strong></label>
+            <input type="email" name="email">
+        </div>
+        <br>
+        <div>
+            <label for=""><strong>Password:</strong></label>
+            <input type="text" name="Password">
+        </div>
+        <br>
+        <input type="submit" name="Submit" value="Submit">
+    </form>
+    <br>
+    <hr>
+    <footer id="main-footer">
+        <p><h5>Copyright &copy; | Vikram Singh 2021UGEE050 | All Rights Reserved</h5></p>
+    </footer>
+</body>
+
+</html>
